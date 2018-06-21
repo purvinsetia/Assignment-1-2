@@ -1,0 +1,43 @@
+PURVIN SETIA@DESKTOP-HU7EKA5 MINGW64 /d/Python Assignments/Intro to python
+$ git init
+Initialized empty Git repository in D:/Python Assignments/Intro to python/.git/
+
+PURVIN SETIA@DESKTOP-HU7EKA5 MINGW64 /d/Python Assignments/Intro to python (master)
+
+$ git add Assignment2.txt
+
+PURVIN SETIA@DESKTOP-HU7EKA5 MINGW64 /d/Python Assignments/Intro to python (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   Assignment2.txt
+
+PURVIN SETIA@DESKTOP-HU7EKA5 MINGW64 /d/Python Assignments/Intro to python (master)
+$ git commit -m"assignment2"
+[master (root-commit) 4ef733c] assignment2
+ 1 file changed, 48 insertions(+)
+ create mode 100644 Assignment2.txt
+
+PURVIN SETIA@DESKTOP-HU7EKA5 MINGW64 /d/Python Assignments/Intro to python (master)
+$ git remote add origin https://github.com/purvinsetia/Assignment-1-2.git
+
+PURVIN SETIA@DESKTOP-HU7EKA5 MINGW64 /d/Python Assignments/Intro to python (master)
+
+$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 641 bytes | 106.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/purvinsetia/Assignment-1-2.git
+ * [new branch]      master -> master
+
+PURVIN SETIA@DESKTOP-HU7EKA5 MINGW64 /d/Python Assignments/Intro to python (master)
+
+
+
