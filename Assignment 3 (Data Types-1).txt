@@ -1,0 +1,57 @@
+Q.1- Create a list with user defined inputs. 
+
+l1=[]
+for i in range(1,6):
+    l1.append(int(input("enter valued-> ")))
+print(l1)
+    
+
+Q.2- Add the following list to above created list:
+[‘google’,’apple’,’facebook’,’microsoft’,’tesla’] 
+
+l2=[]
+l2=["google","apple","facebook","microsoft","tesla"]
+print(l2)
+
+
+Q.3- Count the number of time an object occurs in a list. 
+
+L3=[]
+L3=["a","a","b","a","a"]
+print(L3.count("a"))
+
+
+Q.4- create a list with numbers and sort it in ascending order. 
+
+l4=[5,4,1,2,7]
+l4.sort()
+print (l4)
+
+
+Q.5- Given are two one-dimensional arrays A and B which are sorted in ascending order.
+Write a program to merge them into a single sorted array C that contains every item from
+arrays A and B, in ascending order. [List] 
+
+l5=[5,4,2,7,2]
+l6=[6,9,10,9]
+
+l5.sort()
+l6.sort()
+
+c=l5+l6
+print(c)
+
+
+Q.1- Count even and odd numbers in that list.
+
+l8=[2,3,1,6,4,7]
+e=0
+o=0
+for x in l8:
+    if x%2==0:
+        e+=1
+    else:
+        o+=1
+
+print("no. of even no.-> ",e)
+print("no. of odd no.-> ",e)
