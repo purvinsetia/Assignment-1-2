@@ -1,0 +1,129 @@
+Q.1- Take 10 integers from user and print it on screen.
+
+l1=[]
+
+for i in range(10):
+    a=int(input("enter any no-> "))
+    l1.append(a)
+
+print(l1)
+
+l1=[]
+
+for i in range(10):
+    a=int(input("enter any no-> "))
+    l1.append(a)
+
+print(l1)
+
+---------------------------------------------------------------------------------------------
+
+Q.2- Write an infinite loop.An infinite loop never ends. Condition is always true.
+
+x=1
+
+while x>0:
+    print ("infinite")
+
+---------------------------------------------------------------------------------------------
+
+Q.3- Create a list of integer elements by user input. Make a new list which will store 
+     square of elements of previous list.
+
+l1=[]
+l2=[]
+
+for i in range(5):
+    x=int(input("enter any no-> "))
+    l1.append(x)
+
+for y in l1:
+    z=y**2
+    l2.append(z)
+    y=y+1
+print(l2)
+    
+
+---------------------------------------------------------------------------------------------
+
+Q.4- From a list containing ints, strings and floats, make three lists to store them 
+     separately
+
+l1=['abc',1,2,3,4,5.6,6.3,2,'xyz']
+s=[]
+i=[]
+f=[]
+
+for x in l1:
+    if(type(x)==int):
+        i.append(x)
+    elif(type(x)==float):
+        f.append(x)
+    elif(type(x)==str):
+        s.append(x)
+
+print(s,"\n",i,"\n",f)
+
+
+---------------------------------------------------------------------------------------------
+
+Q.5- Using range(1,101), make a list containing even and odd numbers.
+
+o=[]
+e=[]
+for i in range(1,101):
+    if (i%2==0):
+        e.append(i)
+    else:
+        o.append(i)
+
+print("odd numbers are-> ",o)
+print("even numbers are-> ",e)
+
+---------------------------------------------------------------------------------------------
+
+Q.6- Print the following patterns: 
+*
+**
+***
+****
+
+
+for i in range(5):
+    print("*"*i)
+
+---------------------------------------------------------------------------------------------
+
+Q.7- Create a user defined dictionary and get keys corresponding to the value using for loop.
+
+
+d=dict()
+d={'Name':[],'Gender':[]}
+
+for i in d:
+    n=input("enter name-> ")
+    d['Name'].append(n)
+    m= input("enter gender-> ")
+    d['Gender'].append(m)
+
+for y in d:
+    print("%s %s"%(y,d[y]))
+
+
+---------------------------------------------------------------------------------------------
+
+Q.8- Take inputs from user to make a list. Again take one input from user and search it 
+     in the list and delete that element, if found.Iterate over list using for loop.
+
+l1=[]
+
+for i in range(5):
+    x=int(input("enter any no-> "))
+    l1.append(x)
+
+print(l1)
+s=int(input("enter the no you want to del-> "))
+
+l1.remove(s)
+
+print(l1)
